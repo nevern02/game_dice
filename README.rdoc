@@ -1,0 +1,6 @@
+= game_dice
+
+== Description 
+This is a simple library for dealing with RPG dice systems.  It comes packaged with some
+scripts for rolling dice and dealing with other common RPG scenarios. See the scripts
+in the bin/ dir for details. 
