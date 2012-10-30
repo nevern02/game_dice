@@ -7,15 +7,15 @@ begin
   
   number_of_dice = ARGV.first.split('d').first.to_i
   sides = ARGV.first.split('d').last.to_i
-  dice = []
   
   abort('There must be at least 1 die.') unless number_of_dice > 0
   abort('Dice must have at least 2 sides.') unless sides > 1
   
-  number_of_dice.times { dice << Die.new(sides).roll }
+  dice = Dice.new(number_of_dice, sides)
+  dice.roll
     
   puts "Rolled #{number_of_dice}d#{sides}..."
-  dice.each_index { |i| puts "\tDie #{i + 1}: #{dice[i]}" }
+  dice.each_index { |i| puts "\tDie #{i + 1}: #{dice[i].last_roll}" }
   puts "\t    ------"
-  puts " Total Result: #{dice.inject('+')}"
+  puts " Total Result: #{dice.total}"
 end
