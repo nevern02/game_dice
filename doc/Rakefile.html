@@ -4,7 +4,7 @@
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 
-<title>README - RDoc Documentation</title>
+<title>Rakefile - RDoc Documentation</title>
 
 <link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
 
@@ -73,13 +73,15 @@
 
 <div id="documentation" class="description">
   
-<h1 id="label-game_dice">game_dice</h1>
+<p>require ‘rake/testtask’</p>
 
-<h2 id="label-Description+">Description </h2>
+<p>Rake::TestTask.new do |t|</p>
 
-<p>This is a simple library for dealing with RPG dice systems.  It comes
-packaged with some scripts for rolling dice and dealing with other common
-RPG scenarios. See the scripts in the bin/ dir for details.</p>
+<pre>t.libs &lt;&lt; 'test'</pre>
+
+<p>end</p>
+
+<p>desc “Run tests” task default: :test</p>
 
 </div>
 

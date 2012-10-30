@@ -1,4 +1,7 @@
-Mon, 03 Sep 2012 16:38:03 -0400
-README.rdoc	Mon, 03 Sep 2012 16:17:11 -0400
-lib/game_dice/die.rb	Mon, 03 Sep 2012 16:28:57 -0400
-lib/game_dice.rb	Mon, 03 Sep 2012 13:42:23 -0400
+Tue, 30 Oct 2012 13:50:51 -0400
+./bin/roll	Tue, 30 Oct 2012 13:27:55 -0400
+./lib/game_dice/dice.rb	Tue, 30 Oct 2012 13:35:34 -0400
+./lib/game_dice/die.rb	Mon, 03 Sep 2012 16:28:57 -0400
+./lib/game_dice.rb	Tue, 04 Sep 2012 20:03:47 -0400
+./Rakefile	Mon, 03 Sep 2012 14:07:07 -0400
+./README.rdoc	Mon, 03 Sep 2012 16:17:11 -0400

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'game_dice'
-  s.version       = '1.0.0'
+  s.version       = '1.0.1'
   s.date          = '2012-10-30'
   s.summary       = 'A simple library and scripts for rolling common RPG dice.' 
   s.authors       = ['Brandon Rice']

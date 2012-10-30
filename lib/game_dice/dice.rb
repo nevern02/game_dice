@@ -1,7 +1,7 @@
 # A Dice object represents a collection of individual Die objects.
 # Defaults to two dice.
 class Dice < Array
-  # Dice collectiond defaults to 2d6
+  # Dice collection defaults to 2d6
   def initialize(amount=2, sides=6)
     amount.times { self << Die.new(sides) }
   end
